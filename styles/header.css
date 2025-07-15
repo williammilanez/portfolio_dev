@@ -29,42 +29,53 @@
 }
 
 .intro__avatar {
-  width: auto;
-  height: auto;
-}
-
-figure {
+  position: relative;
   width: 96px;
   height: 96px;
-  flex-shrink: 0;
-
-  border-radius: 999px;
-  border: 2px solid var(--main-color-red);
-
-  position: relative;
 }
 
-figure > img {
+.intro__avatar figure {
   width: 100%;
   height: 100%;
-  flex-shrink: 0;
+  border-radius: 999px;
+  border: 2px solid var(--main-color-red);
+  overflow: hidden;
 
-  border-radius: 9999px;
-  background: url(../assets/dev_photo.png) lightgray 50% / cover no-repeat;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-figure figcaption {
+.intro__avatar figure:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 12px var(--main-color-red);
+}
+
+.intro__avatar figure img {
+  width: 100%;
+  height: 100%;
+  border-radius: 9999px;
+  object-fit: cover;
+}
+
+.change-profile-btn {
   position: absolute;
   bottom: -14px;
-  right: -8px;
+  right: -4px;
+
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+
+  transition: transform 0.3s ease;
 }
 
-figure figcaption img {
+.change-profile-btn:hover {
+  transform: scale(0.8);
+}
+
+.change-profile-btn img {
   width: 38px;
   height: 34px;
-  flex-shrink: 0;
-
-  fill: none;
 }
 
 .intro__text {
@@ -108,18 +119,39 @@ figure figcaption img {
   line-height: 120%;
 }
 
-.intro__text__title h1 {
-  align-self: stretch;
-
-  color: var(--base-color-gray-100);
+.intro__text__title .feature__title__h1 {
+  display: inline-block;
   text-align: center;
 
-  /* Title Lg */
   font: var(--title-lg-asap);
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
   line-height: 120%; /* 67.2px */
+
+  background: linear-gradient(270deg, #00ffff, #4b7bec, #a55eea, #00ffff);
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientPulse 8s ease infinite;
+
+  transition: transform 0.3s ease;
+}
+
+.intro__text__title .feature__title__h1:hover {
+  transform: scale(1.02);
+}
+
+@keyframes gradientPulse {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .intro__text__p {
@@ -151,6 +183,19 @@ figure figcaption img {
 
   border-radius: 999px;
   background: var(--base-color-gray-400);
+
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.intro__tags li:hover {
+  transform: translateY(-4px);
+  background: linear-gradient(270deg, #00ffff, #4b7bec, #a55eea, #00ffff);
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientPulse 8s ease infinite;
+
+  transition: transform 0.3s ease;
 }
 
 .intro__tags img {
@@ -173,4 +218,15 @@ figure figcaption img {
 .intro__scroll-indicator {
   width: 32px;
   height: 32px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.intro__scroll-indicator:hover {
+  transform: translateY(6px) scale(1.1);
 }

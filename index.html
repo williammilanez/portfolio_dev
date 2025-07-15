@@ -43,13 +43,13 @@
                 src="./assets/dev_photo.png"
                 alt="Foto de perfil do Desenvolvedor"
               />
-              <figcaption>
-                <img
-                  src="./assets/icons/Code.svg"
-                  alt="Ícone para mudar de perfil"
-                />
-              </figcaption>
             </figure>
+            <button
+              class="change-profile-btn"
+              aria-label="Trocar perfil de desenvolvedor"
+            >
+              <img src="./assets/icons/Code.svg" alt="" />
+            </button>
           </div>
 
           <div class="intro__text">
@@ -58,7 +58,9 @@
                 Hello World! Meu nome é
                 <span class="destaque">William Milanez</span> e sou
               </h2>
-              <h1>Desenvolvedor Fullstack</h1>
+              <h1>
+                <span class="feature__title__h1">Desenvolvedor Fullstack</span>
+              </h1>
             </div>
             <div class="intro__text__p">
               <p>
@@ -103,12 +105,13 @@
           </ul>
         </nav>
 
-        <div class="intro__scroll-indicator">
-          <img
-            src="./assets/icons/CaretDoubleDown.svg"
-            alt="Duplo cursor para baixo"
-          />
-        </div>
+        <button
+          class="intro__scroll-indicator"
+          aria-label="Ir para a seção de projetos"
+          onclick="document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });"
+        >
+          <img src="./assets/icons/CaretDoubleDown.svg" alt="" />
+        </button>
       </div>
     </section>
 
