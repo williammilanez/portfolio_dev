@@ -1,13 +1,11 @@
 /*Estilos da seção "Projetos"*/
 #projects {
   display: flex;
-  padding: 72px 120px 144px 120px;
+  padding: 72px 120px 144px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 56px;
-  align-self: stretch;
-
   background-color: var(--base-color-gray-500);
 }
 
@@ -15,45 +13,32 @@
   display: flex;
   width: 1040px;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
   gap: 8px;
+  align-items: flex-start;
+}
+
+.projects__header p,
+.projects__header h2 {
+  align-self: stretch;
+  text-align: center;
 }
 
 .projects__header p {
-  align-self: stretch;
   color: var(--main-color-red);
-  text-align: center;
-
-  /* Subtitle */
   font: var(--subtitle-inconsolata);
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 120%; /* 24px */
 }
 
 .projects__header h2 {
-  align-self: stretch;
   color: var(--base-color-gray-100);
-  text-align: center;
-
-  /* Title Md */
   font: var(--title-md-asap);
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%; /* 28.8px */
 }
 
 .projects__grid {
   display: flex;
   width: 1040px;
   justify-content: center;
-  align-items: flex-start;
-  align-content: flex-start;
-  gap: 24px;
   flex-wrap: wrap;
+  gap: 24px;
 }
 
 .projects__card {
@@ -64,12 +49,9 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  flex-shrink: 0;
-
   border-radius: 12px;
   background: var(--base-color-gray-400);
   cursor: pointer;
-
   border: 1px solid transparent;
   transition: border-color 0.3s ease 0.05s, transform 0.3s ease;
 }
@@ -82,12 +64,10 @@
 .projects__card img {
   width: 306px;
   height: 156px;
-  flex-shrink: 0;
-
   border-radius: 8px;
 }
 
-.projects__card .projects__card-content {
+.projects__card-content {
   display: flex;
   padding: 4px;
   flex-direction: column;
@@ -96,26 +76,12 @@
   align-self: stretch;
 }
 
-.projects__card .projects__card-content h3 {
-  align-self: stretch;
+.projects__card-content h3 {
   color: var(--base-color-gray-100);
-
-  /* Title Sm */
   font: var(--title-sm-asap);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%; /* 19.2px */
 }
 
-.projects__card .projects__card-content p {
-  align-self: stretch;
+.projects__card-content p {
   color: var(--base-color-gray-200);
-
-  /* Text Sm */
   font: var(--text-sm-maven_pro);
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 140%; /* 19.6px */
 }
