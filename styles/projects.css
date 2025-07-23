@@ -84,3 +84,20 @@
   color: var(--base-color-gray-200);
   font: var(--text-sm-maven_pro);
 }
+
+.projects__scroll-indicator {
+  width: 32px;
+  height: 32px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  margin-top: 30px;
+}
+
+.projects__scroll-indicator:hover {
+  transform: translateY(6px) scale(1.1);
+}
