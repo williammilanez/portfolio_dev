@@ -8,7 +8,6 @@ Este é o meu portfólio pessoal de desenvolvedor, onde você pode conhecer mais
 2. [Projetos](#projetos)
 3. [Serviços](#serviços)
 4. [Contato](#contato)
-5. [Tecnologias Usadas](#tecnologias-usadas)
 
 ## Introdução
 
@@ -44,6 +43,11 @@ Aqui estão alguns dos projetos que destaquei no meu portfólio:
 - **Descrição**: Sistema para pedido e acompanhamento de reembolso.
 - **Tecnologias**: Node.js, Express, MongoDB
 
+### 6. **Página de Turismo**
+
+- **Descrição**: Página com as principais informações de alguma cidade turística específica.
+- **Tecnologias**: HTML, CSS
+
 ## Serviços
 
 ### O que posso oferecer?
@@ -66,13 +70,7 @@ Você pode entrar em contato comigo pelas seguintes redes sociais ou por e-mail:
 - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/williammilanez/)
 - **GitHub**: [GitHub Profile](https://github.com/williammilanez)
 - **Instagram**: [Instagram Profile](https://www.instagram.com/williammilanez/)
-- **E-mail**: [email@exemplo.com](mailto:william.milanez@outlook.com)
-
-## Tecnologias Usadas
-
-- **Frontend**: HTML, CSS, JavaScript, React
-- **Backend**: Node.js, Express, MongoDB
-- **Ferramentas**: Git, GitHub, Visual Studio Code, Figma
+- **E-mail**: [william.milanez@outlook.com](mailto:william.milanez@outlook.com)
 
 ## Licença
 
