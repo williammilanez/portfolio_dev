@@ -1,9 +1,29 @@
-/* Reset, :root, estilos globais do body e tipografia base */
-* {
+/* ==============================
+  Reset Global
+============================== */
+
+/* Resetting margin and padding */
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* ==============================
+  Configurações Globais
+============================== */
+
+/* Background and Text Colors */
+body {
+  background-color: var(--base-color-gray-500);
+  color: var(--base-color-gray-200);
+}
+
+/* ==============================
+  Variáveis Globais
+============================== */
 
 :root {
   /*Main Colors*/
@@ -35,9 +55,4 @@
   --font-family-maven_pro: "Maven Pro", sans-serif;
   --text-md-maven_pro: 400 16px/140% var(--font-family-maven_pro);
   --text-sm-maven_pro: 400 14px/140% var(--font-family-maven_pro);
-}
-
-body {
-  color: var(--base-color-gray-100);
-  background-color: var(--base-color-gray-600);
 }

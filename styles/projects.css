@@ -1,4 +1,7 @@
-/* Estilos da seção "Projetos" */
+/* ==============================
+  Seção Projetos
+============================== */
+
 #projects {
   display: flex;
   padding: 72px 120px 144px;
@@ -17,6 +20,14 @@
   align-items: flex-start;
 }
 
+.projects__grid {
+  display: flex;
+  width: 1040px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
 .projects__header p,
 .projects__header h2 {
   align-self: stretch;
@@ -33,26 +44,18 @@
   font: var(--title-md-asap);
 }
 
-.projects__grid {
-  display: flex;
-  width: 1040px;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 24px;
-}
-
 .projects__card {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 330px;
   height: 280px;
   padding: 12px;
-  flex-direction: column;
-  align-items: center;
   gap: 20px;
   border-radius: 12px;
   background: var(--base-color-gray-400);
-  cursor: pointer;
   border: 1px solid transparent;
+  cursor: pointer;
   transition: border-color 0.3s ease 0.05s, transform 0.3s ease;
 }
 
@@ -65,14 +68,15 @@
   width: 306px;
   height: 156px;
   border-radius: 8px;
+  object-fit: cover;
 }
 
 .projects__card-content {
   display: flex;
-  padding: 4px;
   flex-direction: column;
-  gap: 8px;
   align-self: stretch;
+  padding: 4px;
+  gap: 8px;
 }
 
 .projects__card-content h3 {
@@ -94,8 +98,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: transform 0.3s ease;
   margin-top: 30px;
+  transition: transform 0.3s ease;
 }
 
 .projects__scroll-indicator:hover {

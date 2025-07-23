@@ -1,4 +1,7 @@
-/* Estilos da seção "Intro" */
+/* ==============================
+  Header (Seção de Introdução)
+============================== */
+
 #intro {
   background: url(../assets/images/Background_Intro.png) lightgray 50% / cover
     no-repeat;

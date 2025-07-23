@@ -1,1 +1,331 @@
-/*Classes utilitárias: grid, espaçamentos, tipografia rápida*/
+/* Utility Classes - Reutilizáveis e genéricas */
+
+/* ==============================
+  Flexbox Utilities
+============================== */
+
+/* Flexbox Centering */
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-align-center {
+  align-items: center;
+}
+
+.flex-justify-center {
+  justify-content: center;
+}
+
+.flex-justify-start {
+  justify-content: flex-start;
+}
+
+.flex-justify-end {
+  justify-content: flex-end;
+}
+
+/* ==============================
+  Gap Utilities
+============================== */
+
+.gap-8 {
+  gap: 8px;
+}
+
+.gap-12 {
+  gap: 12px;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-24 {
+  gap: 24px;
+}
+
+.gap-32 {
+  gap: 32px;
+}
+
+.gap-48 {
+  gap: 48px;
+}
+
+.gap-56 {
+  gap: 56px;
+}
+
+.gap-80 {
+  gap: 80px;
+}
+
+.gap-94 {
+  gap: 94px;
+}
+
+/* ==============================
+  Width Utilities
+============================== */
+
+.w-100 {
+  width: 100%;
+}
+
+.w-1040 {
+  width: 1040px;
+}
+
+.w-680 {
+  width: 680px;
+}
+
+.w-400 {
+  width: 400px;
+}
+
+.w-330 {
+  width: 330px;
+}
+
+.w-306 {
+  width: 306px;
+}
+
+/* ==============================
+  Height Utilities
+============================== */
+
+.h-100 {
+  height: 100%;
+}
+
+.h-32 {
+  height: 32px;
+}
+
+.h-28 {
+  height: 28px;
+}
+
+.h-24 {
+  height: 24px;
+}
+
+.h-40 {
+  height: 40px;
+}
+
+.h-96 {
+  height: 96px;
+}
+
+/* ==============================
+  Border Radius Utilities
+============================== */
+
+.radius-full {
+  border-radius: 9999px;
+}
+
+.radius-lg {
+  border-radius: 12px;
+}
+
+.radius-md {
+  border-radius: 8px;
+}
+
+/* ==============================
+  Padding Utilities
+============================== */
+
+.p-4 {
+  padding: 4px;
+}
+
+.p-8 {
+  padding: 8px;
+}
+
+.p-12 {
+  padding: 12px;
+}
+
+.p-16 {
+  padding: 16px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.p-24 {
+  padding: 24px;
+}
+
+/* ==============================
+  Margin Utilities
+============================== */
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+/* ==============================
+  Text Alignment Utilities
+============================== */
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+/* ==============================
+  Font Utilities
+============================== */
+
+.text-sm {
+  font: var(--text-sm-maven_pro);
+}
+
+.text-md {
+  font: var(--text-md-maven_pro);
+}
+
+.text-title-sm {
+  font: var(--title-sm-asap);
+}
+
+.text-title-md {
+  font: var(--title-md-asap);
+}
+
+.text-title-lg {
+  font: var(--title-lg-asap);
+}
+
+.text-subtitle {
+  font: var(--subtitle-inconsolata);
+}
+
+/* ==============================
+  Color Utilities
+============================== */
+
+.bg-gray-400 {
+  background-color: var(--base-color-gray-400);
+}
+
+.bg-gray-500 {
+  background-color: var(--base-color-gray-500);
+}
+
+.bg-gray-600 {
+  background-color: var(--base-color-gray-600);
+}
+
+.text-gray-100 {
+  color: var(--base-color-gray-100);
+}
+
+.text-gray-200 {
+  color: var(--base-color-gray-200);
+}
+
+.text-red {
+  color: var(--main-color-red);
+}
+
+/* ==============================
+  Border Utilities
+============================== */
+
+.border-red {
+  border: 2px solid var(--main-color-red);
+}
+
+.border-gray-400 {
+  border: 1px solid var(--base-color-gray-400);
+}
+
+.border-gray-500 {
+  border: 2px solid var(--base-color-gray-500);
+}
+
+.border-none {
+  border: none;
+}
+
+/* ==============================
+  Transition Utilities
+============================== */
+
+.transition-base {
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.transition-transform {
+  transition: transform 0.3s ease;
+}
+
+/* ==============================
+  Cursor Utilities
+============================== */
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* ==============================
+  Overflow Utilities
+============================== */
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+/* ==============================
+  Object Fit Utilities
+============================== */
+
+.object-cover {
+  object-fit: cover;
+}
+
+/* ==============================
+  Display Utilities
+============================== */
+
+.block {
+  display: block;
+}
+
+/* ==============================
+  Container Utility
+============================== */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}

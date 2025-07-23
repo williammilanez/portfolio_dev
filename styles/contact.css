@@ -1,4 +1,7 @@
-/* Estilos da seção "Contato" */
+/* ==============================
+  Seção de Contato
+============================== */
+
 #contact {
   background: url(../assets/images/Background_Contacts.png) center/cover
     no-repeat;
@@ -81,4 +84,21 @@
 .social-button-arrow {
   width: 20px;
   height: 20px;
+}
+
+.contact__scroll-indicator {
+  width: 32px;
+  height: 32px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  margin-top: 30px;
+}
+
+.contact__scroll-indicator:hover {
+  transform: translateY(6px) scale(1.1);
 }
