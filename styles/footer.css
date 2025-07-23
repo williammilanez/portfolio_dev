@@ -1,1 +1,14 @@
-/*Estilos do rodapé (footer)*/
+/* Estilos do Rodapé */
+.footer {
+  padding: 32px 24px;
+  background-color: var(--base-color-gray-500);
+  color: var(--base-color-gray-200);
+  text-align: center;
+  font: var(--text-sm-maven_pro);
+  border-top: 1px solid var(--base-color-gray-400);
+}
+
+.footer p {
+  margin: 0;
+  line-height: 1.6;
+}
