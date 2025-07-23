@@ -29,7 +29,7 @@
 }
 
 .contact__header p span {
-  color: var(--main-color-purple);
+  color: var(--main-color-red);
   font: var(--subtitle-inconsolata);
 }
 
