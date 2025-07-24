@@ -19,33 +19,37 @@ Meu foco está na criação de experiências acessíveis, rápidas e centradas n
 
 Aqui estão alguns dos projetos que destaquei no meu portfólio:
 
-### 1. [**Travelgram**](https://travelgram-gules.vercel.app/)
+### 1. **Travelgram**
 
+- 🔗 [Acesse o Projeto](https://travelgram-gules.vercel.app/)
 - **Descrição**: Rede social onde as pessoas podem compartilhar suas viagens.
 - **Tecnologias**: HTML, CSS, JavaScript
 
-### 2. [**Tech News**](https://portal-de-noticias-zeta-five.vercel.app/)
+### 2. **Tech News**
 
+- 🔗 [Acesse o Projeto](https://portal-de-noticias-zeta-five.vercel.app/)
 - **Descrição**: Homepage de um portal de notícias sobre a área de tecnologia.
 - **Tecnologias**: React, Node.js
 
-### 3. [**Página de Receita**](https://pagina-de-receitas-five.vercel.app/)
+### 3. **Página de Receita**
 
+- 🔗 [Acesse o Projeto](https://pagina-de-receitas-five.vercel.app/)
 - **Descrição**: Página com o passo a passo de uma receita para cupcakes.
 - **Tecnologias**: HTML, CSS, JavaScript
 
-### 4. **Zingen**
+### 4. **Zingen** *(privado)*
 
 - **Descrição**: Landing Page responsiva de um aplicativo de Karaokê.
 - **Tecnologias**: HTML, CSS
 
-### 5. **Refund**
+### 5. **Refund** *(privado)*
 
 - **Descrição**: Sistema para pedido e acompanhamento de reembolso.
 - **Tecnologias**: Node.js, Express, MongoDB
 
-### 6. [**Página de Turismo**](https://local-turistico-zeta.vercel.app/)
+### 6. **Página de Turismo**
 
+- 🔗 [Acesse o Projeto](https://local-turistico-zeta.vercel.app/)
 - **Descrição**: Página com as principais informações de alguma cidade turística específica.
 - **Tecnologias**: HTML, CSS
 
@@ -66,7 +70,7 @@ Aqui estão alguns dos projetos que destaquei no meu portfólio:
 
 ## Contato
 
-Entre em contato comigo por:
+Ficarei feliz em conversar com você! Me encontre em:
 
 - [LinkedIn](https://www.linkedin.com/in/williammilanez/)
 - [GitHub](https://github.com/williammilanez)
