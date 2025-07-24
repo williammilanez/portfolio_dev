@@ -66,12 +66,12 @@ Aqui estão alguns dos projetos que destaquei no meu portfólio:
 
 ## Contato
 
-Você pode entrar em contato comigo pelas seguintes redes sociais ou por e-mail:
+Entre em contato comigo por:
 
-- **[LinkedIn](https://www.linkedin.com/in/williammilanez/)**
-- **[GitHub](https://github.com/williammilanez)**
-- **[Instagram](https://www.instagram.com/williammilanez/)**
-- **[E-mail: william.milanez@outlook.com](mailto:william.milanez@outlook.com)**
+- [LinkedIn](https://www.linkedin.com/in/williammilanez/)
+- [GitHub](https://github.com/williammilanez)
+- [Instagram](https://www.instagram.com/williammilanez/)
+- [E-mail](mailto:william.milanez@outlook.com)
 
 ## 🚀 Acesse Agora
 
