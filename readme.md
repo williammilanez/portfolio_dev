@@ -2,7 +2,7 @@
 
 Este é o meu portfólio pessoal de desenvolvedor, onde você pode conhecer mais sobre os meus projetos, habilidades e serviços que ofereço. O objetivo deste portfólio é demonstrar minhas capacidades como desenvolvedor web, destacando projetos feitos em várias tecnologias como HTML, CSS, JavaScript, Node.js, React e muito mais.
 
-## Tabelas de Conteúdos
+## Tabela de Conteúdo
 
 1. [Introdução](#introdução)
 2. [Projetos](#projetos)
@@ -12,23 +12,24 @@ Este é o meu portfólio pessoal de desenvolvedor, onde você pode conhecer mais
 ## Introdução
 
 Olá! Meu nome é **William Milanez** e sou desenvolvedor **Fullstack**. Neste portfólio, você encontrará os projetos em que trabalhei, os serviços que ofereço e informações para entrar em contato comigo.
-Transformo necessidades em aplicações reais, envolventes e funcionais, utilizando as mais recentes tecnologias para criar soluções inovadoras e eficazes.
+Transformo necessidades em aplicações reais, envolventes e funcionais, utilizando as mais recentes tecnologias para criar soluções inovadoras e eficazes. 
+Meu foco está na criação de experiências acessíveis, rápidas e centradas no usuário.
 
 ## Projetos
 
 Aqui estão alguns dos projetos que destaquei no meu portfólio:
 
-### 1. **Travelgram**
+### 1. [**Travelgram**](https://travelgram-gules.vercel.app/)
 
 - **Descrição**: Rede social onde as pessoas podem compartilhar suas viagens.
 - **Tecnologias**: HTML, CSS, JavaScript
 
-### 2. **Tech News**
+### 2. [**Tech News**](https://portal-de-noticias-zeta-five.vercel.app/)
 
 - **Descrição**: Homepage de um portal de notícias sobre a área de tecnologia.
 - **Tecnologias**: React, Node.js
 
-### 3. **Página de Receita**
+### 3. [**Página de Receita**](https://pagina-de-receitas-five.vercel.app/)
 
 - **Descrição**: Página com o passo a passo de uma receita para cupcakes.
 - **Tecnologias**: HTML, CSS, JavaScript
@@ -43,7 +44,7 @@ Aqui estão alguns dos projetos que destaquei no meu portfólio:
 - **Descrição**: Sistema para pedido e acompanhamento de reembolso.
 - **Tecnologias**: Node.js, Express, MongoDB
 
-### 6. **Página de Turismo**
+### 6. [**Página de Turismo**](https://local-turistico-zeta.vercel.app/)
 
 - **Descrição**: Página com as principais informações de alguma cidade turística específica.
 - **Tecnologias**: HTML, CSS
@@ -67,10 +68,10 @@ Aqui estão alguns dos projetos que destaquei no meu portfólio:
 
 Você pode entrar em contato comigo pelas seguintes redes sociais ou por e-mail:
 
-- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/williammilanez/)
-- **GitHub**: [GitHub Profile](https://github.com/williammilanez)
-- **Instagram**: [Instagram Profile](https://www.instagram.com/williammilanez/)
-- **E-mail**: [william.milanez@outlook.com](mailto:william.milanez@outlook.com)
+- **[LinkedIn](https://www.linkedin.com/in/williammilanez/)**
+- **[GitHub](https://github.com/williammilanez)**
+- **[Instagram](https://www.instagram.com/williammilanez/)**
+- **[E-mail: william.milanez@outlook.com](mailto:william.milanez@outlook.com)**
 
 ## 🚀 Acesse Agora
 
